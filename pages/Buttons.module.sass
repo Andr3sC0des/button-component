@@ -27,7 +27,7 @@
 
 .col4
     grid-template-columns: 1fr 1fr 1fr 1fr
-    display: grid
+    display: grid     
 
 .btn
     &__title
@@ -59,3 +59,39 @@
     &> a
         color: #A9A9A9
         
+@media screen and ( max-width: 1320px  )
+    .buttons
+        padding-right: 0px
+    .col2
+        padding-right: 0px
+@media screen and ( max-width: 1154px )
+    .col4
+        grid-template-columns: 1fr 1fr 1fr
+        gap: 30px
+        
+@media screen and ( max-width: 1000px )
+    .col4
+        grid-template-columns: 1fr 1fr
+        gap: 30px
+    .col3
+        gap: 30px
+        grid-template-columns: 1fr 1fr
+    
+@media screen and ( max-width: 900px )
+    .col2
+        grid-template-columns: 1fr
+        gap: 30px
+
+@media screen and ( max-width: 800px )
+    .buttons
+        margin-left: 150px
+
+@media screen and ( max-width: 750px )
+    .col4
+        grid-template-columns: 1fr
+    .col3
+        grid-template-columns: 1fr
+
+@media screen and ( max-width: 500px )
+    .buttons
+        margin-left: 120px
