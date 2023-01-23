@@ -40,7 +40,7 @@
 
 ![Button Component](./screenshot/button-component.png)
 
-This challenge was created using NextJS, the website have the following features:
+This challenge was created using Next.js. The website has the following features:
 
 - Reusable Buttons
 - Navigation Menu
